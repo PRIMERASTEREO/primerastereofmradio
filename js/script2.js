@@ -1,15 +1,15 @@
 const RADIO_NAME = 'PRIMERA STEREO Radio Online';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'http://usa7.fastcast4u.com:5388';
+const URL_STREAMING = 'http://usa7.fastcast4u.com:5388/stream';
 
 // You can find the mount point in the Broadcast Settings.
 // To generate the Zeno Radio API link from the mount point,
 // exclude the '/source' part and append the remaining mount point to the base URL of the API.
-// For example, if the mount point is 'usa7.fastcast4u.com:5388',
-// the API link will be 'http://usa7.fastcast4u.com:5388'.
+// For example, if the mount point is 'usa7.fastcast4u.com:5388/stream',
+// the API link will be 'http://usa7.fastcast4u.com:5388/stream'.
 
-const url = 'http://usa7.fastcast4u.com:5388';
+const url = 'http://usa7.fastcast4u.com:5388/stream';
 
 // Visit https://api.vagalume.com.br/docs/ to get your API key
 const API_KEY = "18fe07917957c289983464588aabddfb";
@@ -538,5 +538,6 @@ function intToDecimal(vol) {
 function decimalToInt(vol) {
     return vol * 100;
 }
+
 
 
