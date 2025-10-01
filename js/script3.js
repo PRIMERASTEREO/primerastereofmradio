@@ -1,7 +1,7 @@
 const RADIO_NAME = 'PRIMERA STEREO Radio Online';
-const URL_STREAMING = 'http://usa7.fastcast4u.com:5388';
-const NOWPLAYING_TXT_URL = 'http://usa7.fastcast4u.com:5388/nowplaying.txt';
-const ZENO_API_URL = 'http://usa7.fastcast4u.com:5388/currentmetadata?sid=1';
+const URL_STREAMING = 'https://usa7.fastcast4u.com/proxy/primerastereo/stream';
+const NOWPLAYING_TXT_URL = 'https://usa7.fastcast4u.com/proxy/primerastereo/stream/nowplaying.txt';
+const ZENO_API_URL = 'https://usa7.fastcast4u.com/proxy/primerastereo/stream/currentmetadata?sid=1';
 const API_KEY = "18fe07917957c289983464588aabddfb";
 const DEFAULT_COVER_ART = 'images/Nuevo Logo.png'; 
 
