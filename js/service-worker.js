@@ -4,10 +4,10 @@ const CACHE_NAME = 'web-radio-v2'; // Incrementa la versión del caché
 // Lista de archivos a almacenar en caché
 const urlsToCache = [
     '/RadioPlayer-ZenoRadio-main/', // Almacena en caché el directorio base del reproductor
-    '/RadioPlayer-ZenoRadio-main/index.html',
-    '/RadioPlayer-ZenoRadio-main/css/style.css',
-    '/RadioPlayer-ZenoRadio-main/js/script.js',
-    '/RadioPlayer-ZenoRadio-main/imagesg/Nuevo Logo.png',
+    '/index.html',
+    '/css/style.css',
+    '/script.js',
+    '/images/Nuevo Logo.png',
     // Agrega otros recursos específicos del reproductor aquí
 ];
 
@@ -58,3 +58,4 @@ self.addEventListener('activate', function(event) {
         })
     );
 });
+
