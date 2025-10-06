@@ -1,7 +1,7 @@
 const RADIO_NAME = 'PRIMERA STEREO Radio Online';
 
 // Change Stream URL Here, Supports, ICECAST, ZENO, SHOUTCAST, RADIOJAR and any other stream service.
-const URL_STREAMING = 'https://usa7.fastcast4u.com/proxy/primerastereo';
+const URL_STREAMING = 'https://usa7.fastcast4u.com/proxy/primerastereo/stream';
 
 // You can find the mount point in the Broadcast Settings.
 // To generate the Zeno Radio API link from the mount point,
@@ -538,6 +538,7 @@ function intToDecimal(vol) {
 function decimalToInt(vol) {
     return vol * 100;
 }
+
 
 
 
