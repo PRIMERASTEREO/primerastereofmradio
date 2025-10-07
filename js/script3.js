@@ -2,8 +2,8 @@ const RADIO_NAME = 'PRIMERA STEREO Radio Online';
 const URL_STREAMING = 'https://usa7.fastcast4u.com/proxy/primerastereo/stream';
 const NOWPLAYING_TXT_URL = 'https://usa7.fastcast4u.com/proxy/primerastereo/7.html';
 
-const API_KEY = "18fe07917957c289983464588aabddfb";
-const DEFAULT_COVER_ART = './images/Nuevo Logo.png'; 
+const API_KEY = "";
+const DEFAULT_COVER_ART = 'https://primerastereo.infy.uk/NewLogo-Primera.png'; 
 
 let showHistory = true;
 var audio = new Audio(URL_STREAMING);
