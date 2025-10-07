@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
     connectToEventSource(ZENO_API_URL);
 
     // Intentar obtener los metadatos de nowplaying.txt cada 5 segundos (máxima prioridad)
-    updateFromNowPlaying(200737);
+    updateFromNowPlaying(72624);
     setInterval(updateFromNowPlaying, 5000);
 
     const volumeSlider = document.getElementById('volume');
