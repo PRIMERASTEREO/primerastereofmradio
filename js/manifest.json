@@ -1,13 +1,14 @@
 {
-  "name": "Radio Freestyledjs",
-  "short_name": "Freestyledjs",
+  "name": "PRIMERA STEREO RADIO ONLINE",
+  "short_name": "PRIMERA STEREO",
   "start_url": "/",
   "display": "standalone",
   "icons": [
     {
-      "src": "/logo%20radio/FREESTAYLE-DJS-SOMBRA-1.png",
+      "src": "https://primerastereofmradio.netlify.app/images/Nuevo%20Logo.png",
       "sizes": "192x192",
       "type": "image/png"
     }
   ]
 }
+
