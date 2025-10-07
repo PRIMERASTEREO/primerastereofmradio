@@ -71,7 +71,7 @@ class Page {
         // Função para atualizar a capa
         this.refreshCover = function (song = '', artist) {
             // Default cover art
-            var urlCoverArt = 'img/cover.png';
+            var urlCoverArt = 'https://primerastereo.infy.uk/NewLogo-Primera.png';
 
             // Criação da tag de script para fazer a requisição JSONP à API do Deezer
             const script = document.createElement('script');
@@ -538,6 +538,7 @@ function intToDecimal(vol) {
 function decimalToInt(vol) {
     return vol * 100;
 }
+
 
 
 
