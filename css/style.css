@@ -17,7 +17,7 @@ body {
     flex-direction: column; /* Apila los elementos verticalmente */
     justify-content: flex-start; /* Alinea el contenido al inicio (arriba) */
     align-items: center; /* Centra el contenido horizontalmente */
-    min-height: 100vh; /* Asegura que el body siempre tome al menos el 100% de la altura del viewport */
+    min-height: 8 0vh; /* Asegura que el body siempre tome al menos el 100% de la altura del viewport */
     background-color: transparent; /* Fundamental para que el fondo de la página padre se vea */
     font-family: 'Poppins', sans-serif;
     color: #fefefe; /* Color de texto base */
@@ -28,15 +28,15 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%; /* Ocupa el 100% de la altura del body del iframe */
+    width: 80%;
+    height: 80%; /* Ocupa el 100% de la altura del body del iframe */
     overflow: hidden;
     z-index: 1;
 }
 
 #bgCover {
-    height: 100%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
@@ -50,8 +50,8 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     background-color: #000000 ;
     z-index: 2;
 }
@@ -64,7 +64,7 @@ main {
     flex-direction: column;
     justify-content: flex-start; /* Alinea el contenido al inicio (arriba) */
     align-items: center;
-    width: 100%;
+    width: 80%;
     max-width: 600px; /* Limita el ancho máximo del reproductor */
     padding: 15px;
     box-sizing: border-box;
@@ -73,7 +73,7 @@ main {
 }
 
 #player {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,7 +82,7 @@ main {
 }
 
 .web-player {
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: column; /* Por defecto apilado para móviles */
     align-items: center;
